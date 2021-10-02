@@ -1,0 +1,186 @@
+@keyframes logo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes logo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes logo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes logo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes logo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes nav {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes nav {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes nav {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes nav {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+/* SLIDER STYLES */
+
+.nivoSlider
+{
+  width: 1520px;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+
+.nivo-control
+{
+  padding-left: 2px;
+}
+
+.nivo-controlNav
+{
+  background-color: #ccc;
+  width: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.nivo-nextNav
+{
+background-image: url(../images/next.png);
+background-repeat: no-repeat;
+width: 40px;
+height: 90px;
+margin-right: 15px;
+}
+
+.nivo-prevNav
+{
+background-image: url(../images/prev.png);
+background-repeat: no-repeat;
+width: 90px;
+height: 90px;
+margin-left: 8px;
+}
+/* END OF SLIDER STYLES */
+
+.sec1
+{
+  background-color: #ebf6b0;
+  padding: 1px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.sec1 h1
+{
+  font-family: 'Cookie', cursive;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 10px;
+  color: #030;
+}
+
+hr
+{
+  width: 1200px;
+  border-color: #f92c2c;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.sec1 p
+{
+  text-align: center;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-bottom: 15px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.sec2
+{
+  background-color: #f0f0f0;
+  padding-bottom: 100px;
+}
+
+.sec2 p
+{
+  text-align: center;
+  margin-left: 130px;
+}
+
+.sec2 img
+{
+  margin-left: 130px;
+}
+
+.sec3
+{
+  background-color: #f0f0f0;
+  padding-bottom: 110px;
+}
+
+div.sec3 img#contact
+{
+  margin-left: 60px;
+  padding-right: 0;
+}
+
+div.sec3 p.contactpara
+{
+  padding-left: 100px;
+}
+
+.sec3 p
+{
+  text-align: center;
+  margin-left: 80px;
+}
+
+.sec3 img
+{
+  margin-left: 80px;
+}
+
+.sec4
+{
+  background-color: #f0f0f0;
+  padding-bottom: 100px;
+}
+
+.sec4 p
+{
+  text-align: center;
+  margin-left: 40px;
+}
+
+.sec4 img
+{
+  margin-left: 40px;
+}

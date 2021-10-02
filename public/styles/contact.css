@@ -1,0 +1,35 @@
+h1
+{
+	font-family: 'Cabin', sans-serif;
+	color: #030;
+	font-size: 48px;
+  text-align: center;
+  margin: 0;
+}
+
+hr
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 500px;
+  border-color: #f92c2c;
+	margin: auto;
+}
+
+hr.top
+{
+  margin-top: 50px;
+}
+
+hr.bottom
+{
+  margin-bottom: 30px;
+}
+
+p
+{
+	text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  padding-bottom: 60px;
+}

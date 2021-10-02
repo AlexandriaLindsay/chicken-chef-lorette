@@ -1,0 +1,136 @@
+body
+{
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img
+{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.header
+{
+  height: 160px;
+  background-color: #c50a0a;
+}
+
+img.logo
+{
+  transform: translateX(-50%);
+  animation-name: logo;
+  animation-duration: 4s;
+  top: 10px;
+  left: 49%;
+  position: absolute;
+  width: 280px;
+  height: 140px;
+}
+
+.nav
+{
+  background-color: #424242;
+}
+
+.nav ul
+{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  margin-left: 300px;
+}
+
+.nav ul li
+{
+  list-style-type: none;
+	display: inline-block;
+  height: 55px;
+	margin-left: 54px;
+	transition: ease-in-out .5s;
+}
+
+.nav ul li:hover
+{
+  background-color: #ebf6b0;
+}
+
+.nav li a
+{
+  text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	margin-bottom: 4px;
+  padding-bottom: 15px;
+	padding-top: 17px;
+  padding-right: 10px;
+	padding-left: 10px;
+  transition: ease-in-out .5s;
+}
+
+.nav ul li a:hover
+{
+  color: #000;
+  transform: scale(1.1);
+}
+
+.footer
+{
+  background-color: #282928;
+  min-height: 328px;
+  z-index: 1000;
+  padding: 1px;
+}
+
+.footer hr
+{
+  width: 900px;
+  border-color: #f92c2c;
+}
+
+.footer ul
+{
+  text-align: center;
+}
+
+.footer ul li
+{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 100px;
+}
+
+.footer ul li a
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover
+{
+  color: #f9f368;
+}
+
+.footer p.copy
+{
+  color: #f9f368;
+  text-align: center;
+}
+
+.footer p.admin
+{
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer p.admin a:hover
+{
+  color: #f00;
+  text-decoration: none;
+}

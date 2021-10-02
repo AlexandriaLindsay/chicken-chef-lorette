@@ -1,0 +1,45 @@
+h1
+{
+	font-family: 'Cabin', sans-serif;
+	color: #030;
+	font-size: 48px;
+  text-align: center;
+  margin: 0;
+}
+
+hr
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 500px;
+  border-color: #f92c2c;
+	margin: auto;
+}
+
+hr.top
+{
+  margin-top: 50px;
+}
+
+hr.bottom
+{
+  margin-bottom: 30px;
+}
+
+.menu img
+{
+	border: 4px dotted #000;
+	border-radius: 10px;
+  transition: ease-in-out .5s;
+}
+
+.menu img:hover
+{
+  transform: scale(1.02);
+}
+
+.menu
+{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
